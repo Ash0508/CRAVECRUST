@@ -10,7 +10,7 @@ import Home from './pages/Home';
 import Cart from './components/Cart';
 import axios from 'axios';
 
-const url = 'https://savorsphere.onrender.com';
+const url = 'http://localhost:3000/';
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [cartItems, setCartItems] = useState([])

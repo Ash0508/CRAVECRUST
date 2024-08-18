@@ -3,7 +3,7 @@ import axios from 'axios';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-const url='https://savorsphere.onrender.com'
+const url='http://localhost:3000/'
 
 const categories = [
     "Vegetarian",

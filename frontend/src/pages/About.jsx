@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="container mt-5">
             <div className="jumbotron bg-dark text-center">
-                <h1 className="display-4">Welcome to SavorSphere</h1>
+                <h1 className="display-4">Welcome to CRAVECRUST</h1>
                 <p className="lead text-light">We provide the most delicious pizzas with the best ingredients.</p>
             </div>
 
@@ -15,7 +15,7 @@ const About = () => {
                 <div className="col-md-8">
                     <section className="mb-4">
                         <h2>About Us</h2>
-                        <p>Founded in 2024, SavorSphere is committed to delivering the best pizza experience with high-quality ingredients and exceptional service.</p>
+                        <p>Founded in 2024, CraveCrust is committed to delivering the best pizza experience with high-quality ingredients and exceptional service.</p>
                     </section>
 
                     <section className="mb-4">
@@ -30,9 +30,9 @@ const About = () => {
 
                     <section className="mb-4">
                         <h2>Contact Us</h2>
-                        <p>Email: contact@savorsphere.com</p>
-                        <p>Phone: +91 9876543210</p>
-                        <p>Address: Chittoor, AP, India</p>
+                        <p>Email: contact@CraveCrust.com</p>
+                        <p>Phone: +91 8756684936</p>
+                        <p>Address: Lucknow, UP, India</p>
                     </section>
                 </div>
             </div>

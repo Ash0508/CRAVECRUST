@@ -19,7 +19,7 @@ const Contact = () => {
     return (
         <div className="container mt-5">
             <div className="jumbotron bg-dark text-center">
-                <h1 className="display-4">Contact SavorSphere</h1>
+                <h1 className="display-4">Contact CraveCrust</h1>
                 <p className="lead text-light">We'd love to hear from you. Please fill out the form below to get in touch.</p>
             </div>
 

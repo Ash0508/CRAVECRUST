@@ -37,7 +37,7 @@ const Home = ({ isAuthenticated }) => {
                 <h1 className="display-4">
                     {isAuthenticated
                         ? `${wish}, ${sessionStorage.getItem('name')}!`
-                        : 'Welcome to SavorSphere!'}
+                        : 'Welcome to CRAVECRUST!'}
                 </h1>
                 <p className="lead">Your ultimate destination for the most delicious pizzas.</p>
                 <hr className="my-4" />
