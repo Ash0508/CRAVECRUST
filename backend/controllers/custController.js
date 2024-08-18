@@ -20,13 +20,14 @@ const insert_customer = async (req, res) => {
         cust_address: req.body.cust_address,
         cust_contact: req.body.cust_contact
     });
+
     try {
         const savedCustomer = await customer.save();
-        console.log('Customer inserted');
+        console.log('Customer inserted:', savedCustomer); // Enhanced Logging
         res.send(savedCustomer);
-    }
-    catch (error) {
-        res.status(400).send(error);
+    } catch (error) {
+        console.error('Error inserting customer:', error); // Log the error on the server
+        res.status(400).json({ message: 'Failed to insert customer', error: error.message }); // Improved Error Handling
     }
 };
 

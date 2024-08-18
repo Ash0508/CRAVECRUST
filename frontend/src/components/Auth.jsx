@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import '../styles/auth.css';
 
-const BASE_URL = 'http://localhost:3000/';
+const BASE_URL = '';
 
 const Auth = ({ setIsAuthenticated }) => {
     const [isLogin, setIsLogin] = useState(true);
@@ -69,6 +69,8 @@ const Auth = ({ setIsAuthenticated }) => {
             alert('An error occurred during login.');
         }
     };
+
+    
 
     const handleRegister = async () => {
         if (!validateForm()) return;
