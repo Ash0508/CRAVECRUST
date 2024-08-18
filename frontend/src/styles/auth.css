@@ -1,0 +1,35 @@
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.bg-dark {
+    background-color: #1c1c1c !important; 
+    color: #FFD700 !important; 
+}
+
+.text-gold {
+    color: #FFD700 !important; 
+}
+
+.btn-gold {
+    background-color: #FFD700 !important; 
+    color: #000 !important;
+    border: none;
+}
+
+.btn-gold:hover {
+    background-color: #cca700 !important; 
+}
+
+.btn-link.text-gold {
+    color: #FFD700 !important;
+}
+
+.btn-link.text-gold:hover {
+    color: #cca700 !important;
+}

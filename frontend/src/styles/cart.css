@@ -1,0 +1,61 @@
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body.bg-gold {
+    background-color: #FFD700;
+    color: #000; 
+}
+
+.card-body.bg-dark {
+    background-color: #1c1c1c; 
+    color: #FFD700; 
+}
+
+.card-title {
+    color: #FF0000; 
+    font-weight: bold;
+}
+
+.card-text {
+    color: #FFFFFF; 
+}
+
+.btn-outline-primary {
+    color: #FF0000; 
+    border-color: #FF0000;
+}
+
+.btn-outline-primary:hover {
+    background-color: #cc0000; 
+    border-color: #cc0000;
+}
+
+.btn-danger {
+    background-color: #FF0000; 
+    border-color: #FF0000;
+}
+
+.btn-danger:hover {
+    background-color: #cc0000; 
+    border-color: #cc0000;
+}
+
+
+.navbar {
+    background-color: #000; 
+    color: #FFD700; 
+}
+
+.nav-link {
+    color: #FFD700; 
+}
+
+.nav-link:hover {
+    color: #FF0000; 
+}
