@@ -4,7 +4,6 @@ const app = express();
 const { connectDB }=require('./DataBase/db')
 const morgan = require('morgan')
 const helmet = require('helmet')
-const bodyParser = require('body-parser');
 require('dotenv').config()
 
 const custRoutes = require('./routes/custRoutes')
@@ -12,13 +11,9 @@ const pizzaRoutes = require('./routes/pizzaRoutes');
 const cartRoutes = require('./routes/cartRoutes');
 
 
-app.use(bodyParser.json());
 app.use(helmet())
 app.use(morgan('dev'))
-app.use(cors({
-    origin: 'http://localhost:8080', // Allow requests from frontend port
-    credentials: true
-}));
+app.use(cors()); 
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true })); 
 
