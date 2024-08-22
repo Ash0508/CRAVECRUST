@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import '../styles/auth.css';
 
-const BASE_URL = '';
+const BASE_URL = 'http://localhost:8080';
 
 const Auth = ({ setIsAuthenticated }) => {
     const [isLogin, setIsLogin] = useState(true);
@@ -101,7 +101,6 @@ const Auth = ({ setIsAuthenticated }) => {
                 }
             }
         } catch (error) {
-            console.error('Error during registration:', error);
             alert('An error occurred during registration.');
         }
     };

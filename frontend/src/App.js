@@ -10,7 +10,7 @@ import Home from './pages/Home';
 import Cart from './components/Cart';
 import axios from 'axios';
 
-const url = '';
+const url = 'http://localhost:8080';
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [cartItems, setCartItems] = useState([])

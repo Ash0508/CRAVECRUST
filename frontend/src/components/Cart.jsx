@@ -45,3 +45,4 @@ const Cart = ({ cartItems = [], fetchCart, handleUpdateCart, handleRemoveFromCar
 };
 
 export default Cart;
+ 

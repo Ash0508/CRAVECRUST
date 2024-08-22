@@ -3,7 +3,7 @@ import axios from 'axios';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-const url=''
+const url='http://localhost:8080'
 
 const categories = [
     "Vegetarian",

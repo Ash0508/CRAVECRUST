@@ -4,7 +4,7 @@ require('dotenv').config()
 
     const connectDB = async () => {
         try {
-            await mongoose.connect('mongodb://127.0.0.1:27017/cravecrust');
+            await mongoose.connect(process.env.MON_URL);
             console.log('MongoDB Connected..');
         } catch (err) {
             console.log(`Connection failed in server.js due to ${err}`);
