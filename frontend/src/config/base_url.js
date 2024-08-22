@@ -1,2 +1,2 @@
-const base_url = 'http://localhost:8080'
+const base_url = 'https://cravecrust.onrender.com'
 export default base_url
