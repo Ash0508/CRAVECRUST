@@ -2,7 +2,7 @@
 
 **🏠 Home Page**
 
-![image](https://github.com/user-attachments/assets/6f68f8bf-1755-4f6f-ba20-69526b98fbf5)
+![image](https://github.com/ash0508/CraveCrust/frontend/src/images/Screenshot 2024-08-24 201045.png)
 
 **🍕 Pizza Page**
 
