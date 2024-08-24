@@ -33,7 +33,7 @@ CRAVECRUST is a luxurious and user-friendly pizza ordering application built usi
 ## 🛠Installation and Setup
 - **Clone the repository**
 
-- ```bash
+ ```bash
 git clone https://github.com/yourusername/SavorSphere.git
 cd SavorSphere
 ```
